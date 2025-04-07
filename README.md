@@ -1,38 +1,32 @@
-# sv
+![Powered by SvelteKit](https://img.shields.io/badge/Powered%20by-SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![License MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# SvelteKit Experiments
 
-## Creating a project
+This repository contains various experiments and examples built with SvelteKit, exploring different features and best practices.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Experiments
 
-```bash
-# create a new project in the current directory
-npx sv create
+- [Pagination Experiment](./pagination) - Demonstrates pagination using search params and SvelteKit's `load` function.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Getting Started
 
-## Developing
+### Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone the repository and install dependencies:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone git@github.com:simon-lund/sveltekit-experiments.git
+cd sveltekit-experiments
+pnpm install
 ```
 
-## Building
+### Development
 
-To create a production version of your app:
+Start a development server:
 
 ```bash
-npm run build
+pnpm dev
 ```
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
